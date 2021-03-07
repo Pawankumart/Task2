@@ -1,240 +1,287 @@
 <!DOCTYPE html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task2-Microsoft</title>
 
+    <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
+    <meta name="description" lang="en" content="">
+    
+    <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
+    <meta name="keywords" lang="en" content="">
+    
+    <!-- View-port Basics: http://mzl.la/VYREaP -->
+    <!-- This meta tag is used for mobile device to display the page without any zooming,
+        so how much the device is able to fit on the screen is what's shown initially. 
+        Remove comments from this tag, when you want to apply media queries to the website. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- To adhear no-cache for Chrome -->
+    <!-- <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-store, no-cache" />
+    <meta http-equiv="Expires" content="0" /> -->
+
+    <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
     <!--font-awesome link for icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+    <link rel="stylesheet" media="screen" href="assets/css/style.css" >
 </head>
 <body>
-    <!-- wrapper starts here -->
-    <div class="wrapper">
+    <!-- container starts here -->
+    <div class="container">
+        <!--header starts here-->
         <header>
-            <div class="logo">
-                <img src="#" alt="MS">
-                <span>Microsoft</span>
-            </div>
-            <div class="nav">
-                <ol>
-                    <li><a href="#">Microsoft 365</a></li>
-                    <li><a href="#">Azure</a></li>
-                    <li><a href="#">Office 365</a></li>
-                    <li><a href="#">Dynamics 365</a></li>
-                    <li><a href="#">SQL</a></li>
-                    <li><a href="#">Windows 10</a></li>
-                    <li>
-                        More  <i class="fa fa-angle-down" aria-hidden="true"></i>
+            <div class="wrapper">
+                <!--header-top starts here-->
+                <div class="header-top">
+                    <h1><a href="#FIXME"><img src="#FIXME" alt="LOGO"></a></h1>
+                    <nav>
                         <ul>
-                            <li><a href="#">sub1</a></li>
-                            <li><a href="#">sub2</a></li>
-                            <li><a href="#">sub3</a></li>
-                          </ul>
-                    </li>
-                </ol>
-            </div>
-            <div class="right-nav">
-                <button><i class="fa fa-search" aria-hidden="true"></i></button>
-                <button><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            <li><a href="#FIXME">Microsoft 365</a></li>
+                            <li><a href="#FIXME">Azure</a></li>
+                            <li><a href="#FIXME">Office 365</a></li>
+                            <li><a href="#FIXME">Dynamics 365</a></li>
+                            <li><a href="#FIXME">SQL</a></li>
+                            <li><a href="#FIXME">Windows 10</a></li>
+                            <li>
+                                More  
+                                <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+                                <ul>
+                                    <li><a href="#FIXME">sub1</a></li>
+                                    <li><a href="#FIXME">sub2</a></li>
+                                    <li><a href="#FIXME">sub3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#FIXME">
+                                <input type="search" class="search" name="search" id="search">
+                                <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+                            </a></li>
+                            <li><a href="#FIXME">
+                                <!-- <i class="fa fa-shopping-cart" aria-hidden="true"></i> -->
+                            </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--header-top ends here-->
+                <!--header-bottom starts here-->
+                <div class="header-bottom">
+                    <ul>
+                        <li><h2><a href="#FIXME">Enterprise</a></h2></li>
+                        <li>
+                            Solutions by Industry 
+                            <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+                            <ul>
+                                <li><a href="#FIXME">sub1</a></li>
+                                <li><a href="#FIXME">sub2</a></li>
+                                <li><a href="#FIXME">sub3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            Public Sector 
+                            <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+                            <ul>
+                                <li><a href="#FIXME">sub1</a></li>
+                                <li><a href="#FIXME">sub2</a></li>
+                                <li><a href="#FIXME">sub3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#FIXME">Customer Stories</a></li>
+                        <li><a href="#FIXME">Events</a></li>
+                    </ul>
+                </div>
+                <!--header-bottom ends here-->
             </div>
         </header>
-        <section class="sec1">
-            <ol>
-                <li><a href="#">Enterprise</a></li>
-                <li>
-                    Solutions by Industry <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    <ul>
-                        <li><a href="#">sub1</a></li>
-                        <li><a href="#">sub2</a></li>
-                        <li><a href="#">sub3</a></li>
-                      </ul>
-                </li>
-                <li>
-                    Public Sector <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    <ul>
-                        <li><a href="#">sub1</a></li>
-                        <li><a href="#">sub2</a></li>
-                        <li><a href="#">sub3</a></li>
-                      </ul>
-                </li>
-                <li><a href="#">Customer Stories</a></li>
-                <li><a href="#">Events</a></li>
-            </ol>
-            <div class="row">
-                <div class="leftCon">
-                    <span>Home <i class="fa fa-angle-right" aria-hidden="true"></i> Digital Transformation</span>
+        <!--header ends here-->
+
+        <!--main starts here-->
+        <main>
+            <section class="sec1">
+                
+                <div class="row">
+                    <div class="leftCon">
+                        <span>Home <i class="fa fa-angle-right" aria-hidden="true"></i> Digital Transformation</span>
+                    </div>
+                    <div class="rightCon">
+                        <span><i class="fa fa-phone" aria-hidden="true"></i> &#40;&#43;44&#41;0344 800 2400</span>
+                        <span><i class="fa fa-envelope-o" aria-hidden="true"></i> Support</span>
+                    </div>
                 </div>
-                <div class="rightCon">
-                    <span><i class="fa fa-phone" aria-hidden="true"></i> &#40;&#43;44&#41;0344 800 2400</span>
-                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i> Support</span>
-                </div>
+            <div class="container">
+                <h2>Become a Digital Business</h2>
+                <p>&#8220;Every company is a software company. You have to start thinking and operating like
+                    a digital company. It's no longer just about procuring one solution and deploying one. It's 
+                    not about one simple software solution. It's really you yourself thinking of your own future
+                    as a digital company.&#8221;
+                    </p>
+                    <p>8208Satya Nadella CEO, Microsoft</p>
+                    <a href="#">
+                        <span><i class="fa fa-play" aria-hidden="true"></i></span> Watch Video
+                    </a>
             </div>
-           <div class="container">
-               <h2>Become a Digital Business</h2>
-               <p>&#8220;Every company is a software company. You have to start thinking and operating like
-                   a digital company. It's no longer just about procuring one solution and deploying one. It's 
-                   not about one simple software solution. It's really you yourself thinking of your own future
-                   as a digital company.&#8221;
-                </p>
-                <p>8208Satya Nadella CEO, Microsoft</p>
-                <a href="#">
-                    <span><i class="fa fa-play" aria-hidden="true"></i></span> Watch Video
-                </a>
-           </div>
-        </section>
-        <!-- Sec1 ends here -->
-        <section class="sec2 container">
-            <div class="left-sec">
-                <h2>What is digital transfromation?</h2>
-                <p>
-                    Digital transformation is about reimaging how you bring together people, data and processes to create valuefor your customers
-                     and maintain a competitive advantage in a digital-first world.
-                </p>
-                <p>
-                    Use this framework from Gratner and our exclusive e-book to take digital to the core of your business 
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </p>
-            </div>
-            <img src="#" alt="Image">
-        </section>
-        <section class="sec3 container">
-            <h2>How do you tranfrom your products?</h2>
-            <p>Partnering wit Microsoft helps your organisation tronsfrom into a digital company by developing new capibilities.</p>
-            <hr>
-            <article>
-                <div class="left-article">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <h2>Engage your customers</h2>
-                    <p>Tailor individual customer experience by harnessing data and drawing actinable insights.</p>
-                    <p><a href="#">Learn how to engage <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+            </section>
+            <!-- Sec1 ends here -->
+            <section class="sec2 container">
+                <div class="left-sec">
+                    <h2>What is digital transfromation?</h2>
+                    <p>
+                        Digital transformation is about reimaging how you bring together people, data and processes to create valuefor your customers
+                        and maintain a competitive advantage in a digital-first world.
+                    </p>
+                    <p>
+                        Use this framework from Gratner and our exclusive e-book to take digital to the core of your business 
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </p>
                 </div>
-                <div class="right-article">
-                    <img src="#" alt="Image">
+                <img src="#" alt="Image">
+            </section>
+            <section class="sec3 container">
+                <h2>How do you tranfrom your products?</h2>
+                <p>Partnering wit Microsoft helps your organisation tronsfrom into a digital company by developing new capibilities.</p>
+                <hr>
+                <article>
+                    <div class="left-article">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h2>Engage your customers</h2>
+                        <p>Tailor individual customer experience by harnessing data and drawing actinable insights.</p>
+                        <p><a href="#">Learn how to engage <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="right-article">
+                        <img src="#" alt="Image">
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="left-article">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h2>Empower your employees</h2>
+                        <p>Tailor individual customer experience by harnessing data and drawing actinable insights.</p>
+                        <p><a href="#">Learn how to engage <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="right-article">
+                        <img src="#" alt="Image">
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="left-article">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h2>Optimise your operations</h2>
+                        <p>Tailor individual customer experience by harnessing data and drawing actinable insights.</p>
+                        <p><a href="#">Learn how to engage <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="right-article">
+                        <img src="#" alt="Image">
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="left-article">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h2>Transform your products</h2>
+                        <p>Tailor individual customer experience by harnessing data and drawing actinable insights.</p>
+                        <p><a href="#">Learn how to engage <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="right-article">
+                        <img src="#" alt="Image">
+                    </div>
+                </article>
+                <hr>
+            </section>
+            <section class="sec4 container">
+                <p><i class="fa fa-book" aria-hidden="true"></i>Resources</p>
+                <hr>
+                <article>
+                    <div class="left-article">
+                        <h2>What is your #MySurface story?</h2>
+                        <p>Steve Woodgate, Marketing Professional</p>
+                        <p>15&#47;02&#47;2018</p>
+                        <p>Read Steven Woodgate's #MySurface story,to find out how his Surface has become
+                            favourite and most trusted companion to enable creativity.</p>
+                            <p><a href="#">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="right-article">
+                        <img src="#" alt="Image">
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="left-article">
+                        <h2>What is your #MySurface story?</h2>
+                        <p>Steve Woodgate, Marketing Professional</p>
+                        <p>15&#47;02&#47;2018</p>
+                        <p>Read Steven Woodgate's #MySurface story,to find out how his Surface has become
+                            favourite and most trusted companion to enable creativity.</p>
+                            <p><a href="#">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="right-article">
+                        <img src="#" alt="Image">
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="left-article">
+                        <h2>What is your #MySurface story?</h2>
+                        <p>Steve Woodgate, Marketing Professional</p>
+                        <p>15&#47;02&#47;2018</p>
+                        <p>Read Steven Woodgate's #MySurface story,to find out how his Surface has become
+                            favourite and most trusted companion to enable creativity.</p>
+                            <p><a href="#">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="right-article">
+                        <img src="#" alt="Image">
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="left-article">
+                        <h2>Ten tips for productive working, whereever you are</h2>
+                        <p>Steve Woodgate, Marketing Professional</p>
+                        <p>15&#47;02&#47;2018</p>
+                        <p>Read Steven Woodgate's #MySurface story,to find out how his Surface has become
+                            favourite and most trusted companion to enable creativity.</p>
+                            <p><a href="#">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="right-article">
+                        <img src="#" alt="Image">
+                    </div>
+                </article>
+                <hr>
+                <a href="#">View All Blog Posts</a>
+            </section>
+            <section class="sec5 container">
+                <div class="row">
+                    <div class="column col2">
+                        <span><i class="fa fa-download" aria-hidden="true"></i>Download the Digital Transform report</span><br>
+                        <span><i class="fa fa-hdd-o" aria-hidden="true"></i>Digital Trasformation and your data</span><br>
+                        <span><i class="fa fa-angle-left" aria-hidden="true"></i>Back to Home</span>
+                    </div>
+                    <div class="column col2">
+                        <span><i class="fa fa-phone" aria-hidden="true"></i> &#40;&#43;44&#41;0344 800 2400</span><br>
+                        <span><i class="fa fa-envelope-o" aria-hidden="true"></i> Support</span>
+                    </div>
                 </div>
-            </article>
-            <hr>
-            <article>
-                <div class="left-article">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <h2>Empower your employees</h2>
-                    <p>Tailor individual customer experience by harnessing data and drawing actinable insights.</p>
-                    <p><a href="#">Learn how to engage <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                <div class="socialIcons">
+                    <p>
+                        Follow Us 
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </p>
                 </div>
-                <div class="right-article">
-                    <img src="#" alt="Image">
-                </div>
-            </article>
-            <hr>
-            <article>
-                <div class="left-article">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <h2>Optimise your operations</h2>
-                    <p>Tailor individual customer experience by harnessing data and drawing actinable insights.</p>
-                    <p><a href="#">Learn how to engage <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
-                </div>
-                <div class="right-article">
-                    <img src="#" alt="Image">
-                </div>
-            </article>
-            <hr>
-            <article>
-                <div class="left-article">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <h2>Transform your products</h2>
-                    <p>Tailor individual customer experience by harnessing data and drawing actinable insights.</p>
-                    <p><a href="#">Learn how to engage <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
-                </div>
-                <div class="right-article">
-                    <img src="#" alt="Image">
-                </div>
-            </article>
-            <hr>
-        </section>
-        <section class="sec4 container">
-            <p><i class="fa fa-book" aria-hidden="true"></i>Resources</p>
-            <hr>
-            <article>
-                <div class="left-article">
-                    <h2>What is your #MySurface story?</h2>
-                    <p>Steve Woodgate, Marketing Professional</p>
-                    <p>15&#47;02&#47;2018</p>
-                    <p>Read Steven Woodgate's #MySurface story,to find out how his Surface has become
-                         favourite and most trusted companion to enable creativity.</p>
-                         <p><a href="#">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
-                </div>
-                <div class="right-article">
-                    <img src="#" alt="Image">
-                </div>
-            </article>
-            <hr>
-            <article>
-                <div class="left-article">
-                    <h2>What is your #MySurface story?</h2>
-                    <p>Steve Woodgate, Marketing Professional</p>
-                    <p>15&#47;02&#47;2018</p>
-                    <p>Read Steven Woodgate's #MySurface story,to find out how his Surface has become
-                         favourite and most trusted companion to enable creativity.</p>
-                         <p><a href="#">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
-                </div>
-                <div class="right-article">
-                    <img src="#" alt="Image">
-                </div>
-            </article>
-            <hr>
-            <article>
-                <div class="left-article">
-                    <h2>What is your #MySurface story?</h2>
-                    <p>Steve Woodgate, Marketing Professional</p>
-                    <p>15&#47;02&#47;2018</p>
-                    <p>Read Steven Woodgate's #MySurface story,to find out how his Surface has become
-                         favourite and most trusted companion to enable creativity.</p>
-                         <p><a href="#">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
-                </div>
-                <div class="right-article">
-                    <img src="#" alt="Image">
-                </div>
-            </article>
-            <hr>
-            <article>
-                <div class="left-article">
-                    <h2>Ten tips for productive working, whereever you are</h2>
-                    <p>Steve Woodgate, Marketing Professional</p>
-                    <p>15&#47;02&#47;2018</p>
-                    <p>Read Steven Woodgate's #MySurface story,to find out how his Surface has become
-                         favourite and most trusted companion to enable creativity.</p>
-                         <p><a href="#">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
-                </div>
-                <div class="right-article">
-                    <img src="#" alt="Image">
-                </div>
-            </article>
-            <hr>
-            <a href="#">View All Blog Posts</a>
-        </section>
-        <section class="sec5 container">
-            <div class="row">
-                <div class="column col2">
-                    <span><i class="fa fa-download" aria-hidden="true"></i>Download the Digital Transform report</span><br>
-                    <span><i class="fa fa-hdd-o" aria-hidden="true"></i>Digital Trasformation and your data</span><br>
-                    <span><i class="fa fa-angle-left" aria-hidden="true"></i>Back to Home</span>
-                </div>
-                <div class="column col2">
-                    <span><i class="fa fa-phone" aria-hidden="true"></i> &#40;&#43;44&#41;0344 800 2400</span><br>
-                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i> Support</span>
-                </div>
-            </div>
-            <div class="socialIcons">
-                <p>
-                    Follow Us 
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </p>
-            </div>
-        </section>
+            </section>
+        </main>
+        <!--main ends here-->
+
+        <!--footer starts here-->
         <footer>
             <div class="row">
                 <div class="column col6">
@@ -323,7 +370,10 @@
                 </div>
             </div>
         </footer>
+        <!--footer ends here-->
     </div>
-    <!-- wrapper ends here -->
+    <!-- container ends here -->
+    <script src="js/vendors/jquery-1.8.3.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
